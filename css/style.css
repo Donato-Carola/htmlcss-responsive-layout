@@ -9,29 +9,34 @@
     display: flex;
 }
 
-
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
 
 
 /*css Header, menu di navigazione*/
 
-header>nav{
+header{
     height: 80px;
     background-color: rgb(0, 132, 253);
-    justify-content: space-between;
     
-
 }
-
-header>nav div.logo{
-    width: 10%;
-    background-color: darkblue;
+header>nav{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
     height: 100%;
+
 }
+
+
 
 header>nav div.menu{
-    width: 10%;
-    background-color: brown;
-    height: 100%;
+   font-size: xx-large;
+   color: white;
+   
+    
 }
 
 
@@ -40,6 +45,7 @@ header>nav div.menu{
 
 
 article.row{
+    
     flex-direction: column;
     flex-wrap: wrap;
 }

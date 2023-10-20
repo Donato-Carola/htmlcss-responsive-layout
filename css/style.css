@@ -36,7 +36,7 @@ header>nav div.menu{
 
 
 
-/*css prima sezione*/
+/*css prima sezione - Get a demo application*/
 
 
 article.row{
@@ -48,6 +48,7 @@ article.row{
 section.first-section{
     height: 500px;
     background-color:crimson ;
+   
 
 }
 
@@ -83,4 +84,23 @@ article div.box-bottom div.box-space-one{
     height: calc(100% / 3);
 }
 
+
+
+
+/*seconda sezione - strategic planning*/
+
+section.second-section{
+      height: 600px;
+      background-color: coral;
+}
+
+section.second-section div.box-left{
+    height: calc(100% / 2);
+    background-color: aqua;
+}
+
+section.second-section div.box-right{
+    height: calc(100% / 2);
+    background-color: rgb(18, 51, 51);
+}
 

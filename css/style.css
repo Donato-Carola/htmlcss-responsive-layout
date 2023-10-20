@@ -1,158 +1,130 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: 1px dashed rgb(255, 0, 200);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*border: 1px dashed rgb(255, 0, 200);*/
 }
 
-body{
-    font-family: 'Open Sans', sans-serif;
-font-family: 'PT Sans', sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
 
-.container{
-    width: 90%;
-    margin: 0 auto;
+.container {
+  width: 90%;
+  margin: 0 auto;
 }
-
 
 /*css Header, menu di navigazione*/
 
-header{
-    height: 80px;
-    background-color: rgb(0, 132, 253);
-    
+header {
+  height: 80px;
+  background-color: rgb(0, 132, 253);
 }
-header>nav{
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    height: 100%;
-
+header > nav {
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 100%;
 }
 
-
-
-header>nav div.menu{
-   font-size: xx-large;
-   color: white;
-   
-    
+header > nav div.menu {
+  font-size: xx-large;
+  color: white;
 }
-
-
 
 /*css prima sezione - Get a demo application*/
 
-
-article.row{
-    
-    flex-direction: column;
-    flex-wrap: wrap;
+article.row {
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-article div.box-top{
-width: 100%;
+article div.box-top {
+  width: 100%;
 }
 
-.color-box-first-section{
-    background-color:rgb(181, 221, 255);
-    width: 100%;
-    border-radius: 25px;
-    
-    margin: 1rem 0;
+.color-box-first-section {
+  background-color: rgb(181, 221, 255);
+  width: 100%;
+  border-radius: 25px;
+
+  margin: 1rem 0;
 }
 
 /*primo box*/
 
-article div.box-top div.box-space-two{
-  
-    
-    padding: 2rem 2rem 0 2rem;
-    
-   
+article div.box-top div.box-space-two {
+  padding: 2rem 2rem 0 2rem;
 }
 
-article div.box-top div.box-space-two>h3{
-    color:rgb(0, 129, 253);
-    font-size: xx-large;
+article div.box-top div.box-space-two > h3 {
+  color: rgb(0, 129, 253);
+  font-size: xx-large;
 }
 
-article div.box-top div.box-space-two>p{
-    color: rgb(91, 111, 128);
-    padding: 1rem 0;
+article div.box-top div.box-space-two > p {
+  color: rgb(91, 111, 128);
+  padding: 1rem 0;
 }
 
-article div.box-top div.box-space-two>button{
-    background-color: rgb(0, 132, 253);
-    color: white;
-    padding: 0.5rem 5rem;
-    border: none;
-    border-radius: 15px;
-    font-size: larger;
-    margin: 1rem 0;
+article div.box-top div.box-space-two > button {
+  background-color: rgb(0, 132, 253);
+  color: white;
+  padding: 0.5rem 5rem;
+  border: none;
+  border-radius: 15px;
+  font-size: larger;
+  margin: 1rem 0;
 }
 
-
-
- div.box-space-two>img{
-    object-fit: cover;
-    width: 100%;
-    
-    
+div.box-space-two > img {
+  object-fit: cover;
+  width: 100%;
 }
 
 /*secondo box*/
 
-article div.box-space-one{
-    
-    width: 100%;
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-
-   
+article div.box-space-one {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-article div.box-space-one>i,
-h2{
-    color: rgb(0, 132, 253);
+article div.box-space-one > i,
+h2 {
+  color: rgb(0, 132, 253);
 }
 
-article div.box-space-one>i{
-    font-size: 70px;
+article div.box-space-one > i {
+  font-size: 70px;
 }
 
-article div.box-space-one>h2{
-    font-size: xx-large;
-    padding: 1rem 0;
+article div.box-space-one > h2 {
+  font-size: xx-large;
+  padding: 1rem 0;
 }
 
-article div.box-space-one>p{
-    text-align: center;
+article div.box-space-one > p {
+  text-align: center;
+}
+
+article div.box-bottom {
+  width: 100%;
+}
+
+article div.box-bottom div.box-space-one {
+  width: 100%;
+  height: calc(100% / 3);
 }
 
 
-
-
-
-article div.box-bottom{
-width: 100%;
-
-
-}
-
-article div.box-bottom div.box-space-one{
-    
-    width: 100%;
-    height: calc(100% / 3);
-}
 
 
 
@@ -163,29 +135,59 @@ article div.box-bottom div.box-space-one{
 
 /*seconda sezione - strategic planning*/
 
-section.second-section{
-     background-color: rgb(149, 147, 230);
-     
-      margin: 5rem 0;
+
+section.second-section article.article-second-sec{
+padding: 3rem 0;
+}
+
+section.second-section {
+  background-color: rgb(149, 147, 230);
+
+  margin: 5rem 0;
+}
+
+section.second-section div.box-left{
+    color: white;
+}
+
+section.second-section img {
+  width: 100%;
+  object-fit: 100%;
+}
+
+section.second-section h1{
+    padding: 3rem 0;
+    font-size: xx-large;
+}
+
+section.second-section p{
+    padding: 1.5rem 0;
 }
 
 
 
 
 
-
-section.second-section img
-{
-    width: 100%;
-    object-fit: 100%;
-    
-   
+section.second-section div.box-right{
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
 }
 
+section.second-section div.box-right>p{
+    
+    font-style: oblique;
+}
 
+section.second-section div.box-right>i{
+    padding: 1rem;
+    background-color: rgb(149, 147, 230);
+    border-radius:100%;
+    margin-bottom: 1rem;
     
     
 
+}
 
 
 
@@ -209,27 +211,25 @@ section.second-section img
 
 /*css terza sezione dove ci sono i Testimonials*/
 
+section.third-section > article {
+  background-color: rgb(255, 251, 3);
+  height: 800px;
+}
 
-section.third-section>article{
-    background-color:rgb(255, 251, 3) ;
-    height: 800px;
-    
+section.third-section > article > div.title-section,
+section.third-section > article > div.testimonial {
+  height: calc(100% / 4);
+}
+
+section.third-section > article > div.testimonial {
+  background-color: blueviolet;
+}
+
+section.third-section > article > div.title-section {
+  background-color: rgb(13, 221, 221);
 }
 
 
-section.third-section>article>div.title-section,
-section.third-section>article>div.testimonial{
-   height: calc(100% / 4);
-    
-}
-
-section.third-section>article>div.testimonial{
-    background-color: blueviolet;
-}
-
-section.third-section>article>div.title-section{
-    background-color: rgb(13, 221, 221);
-}
 
 
 
@@ -251,111 +251,73 @@ section.third-section>article>div.title-section{
 
 /* CSS quarta sezione dove ci sono i benefici se lavori con noi*/
 
-section.fourth-section{
-    height: 1000px;
-    background-color: chartreuse;
-    margin: 1rem 0;
+section.fourth-section {
+  height: 1000px;
+  background-color: chartreuse;
+  margin: 1rem 0;
 }
 
-
-section.fourth-section>article.row h1
-{
-    height: 100px;
-    background-color: black;
+section.fourth-section > article.row h1 {
+  height: 100px;
+  background-color: black;
 }
 
-
-section.fourth-section>article.row>div.box-top-benefit{
-    background-color: aqua;
-
+section.fourth-section > article.row > div.box-top-benefit {
+  background-color: aqua;
 }
 
-section.fourth-section>article.row>div.box-bottom-benefit{
-    background-color: blueviolet;
+section.fourth-section > article.row > div.box-bottom-benefit {
+  background-color: blueviolet;
 }
 
-section.fourth-section>article.row>div.box-top-benefit,
-section.fourth-section>article.row>div.box-bottom-benefit{
-height: 450px;
+section.fourth-section > article.row > div.box-top-benefit,
+section.fourth-section > article.row > div.box-bottom-benefit {
+  height: 450px;
 }
 
-
-div.box-benefits{
-    height: calc(100% / 3);
-    background-color: blue;
+div.box-benefits {
+  height: calc(100% / 3);
+  background-color: blue;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* CSS quinta sezione dove ci sono ABOUT*/
 
-
-section.fifth-section{
-    height: 800px;
-    background-color: rgb(201, 94, 94);
+section.fifth-section {
+  height: 800px;
+  background-color: rgb(201, 94, 94);
 }
 
-section.fifth-section>article.row{
-    height: 100%;
+section.fifth-section > article.row {
+  height: 100%;
 }
 
 div.box-left-about,
-div.box-right-about{
-    height: calc(100% / 2);
-
+div.box-right-about {
+  height: calc(100% / 2);
 }
 
-div.box-left-about{
-    background-color: rgb(179, 179, 59);
+div.box-left-about {
+  background-color: rgb(179, 179, 59);
 }
 
-div.box-right-about{
-    background-color: rgb(0, 60, 255);
-
+div.box-right-about {
+  background-color: rgb(0, 60, 255);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* CSS sesta sezione dove GET strted*/
 
-section.sixth-section{
-    height: 1000px;
-    background-color: aqua;
+section.sixth-section {
+  height: 1000px;
+  background-color: aqua;
 }
 
-div.pre-footer{
-    height: 100%;
+div.pre-footer {
+  height: 100%;
 }
-
-
-
 
 /*CSS FOOTER*/
 
-footer{
-    height: 600px;
-    background-color: black;
+footer {
+  height: 600px;
+  background-color: black;
 }

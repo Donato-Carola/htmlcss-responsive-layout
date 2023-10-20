@@ -15,7 +15,7 @@ font-family: 'PT Sans', sans-serif;
 }
 
 .container{
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -53,23 +53,27 @@ article.row{
     
     flex-direction: column;
     flex-wrap: wrap;
-   
 }
-
-
 
 article div.box-top{
 width: 100%;
-
-
 }
 
-article div.box-top div.box-space-two{
+.color-box-first-section{
     background-color:rgb(181, 221, 255);
     width: 100%;
-    margin: 1rem 0;
     border-radius: 25px;
+    
+    margin: 1rem 0;
+}
+
+/*primo box*/
+
+article div.box-top div.box-space-two{
+  
+    
     padding: 2rem 2rem 0 2rem;
+    
    
 }
 
@@ -90,39 +94,69 @@ article div.box-top div.box-space-two>button{
     border: none;
     border-radius: 15px;
     font-size: larger;
+    margin: 1rem 0;
 }
 
 
 
- div.box-space-two>div>img{
+ div.box-space-two>img{
     object-fit: cover;
     width: 100%;
     
     
+}
 
+/*secondo box*/
+
+article div.box-space-one{
     
-
-}
-
-article div.box-top div.box-space-one{
-    background-color: black;
     width: 100%;
-    height: 30%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+   
 }
+
+article div.box-space-one>i,
+h2{
+    color: rgb(0, 132, 253);
+}
+
+article div.box-space-one>i{
+    font-size: 70px;
+}
+
+article div.box-space-one>h2{
+    font-size: xx-large;
+    padding: 1rem 0;
+}
+
+article div.box-space-one>p{
+    text-align: center;
+}
+
+
 
 
 
 article div.box-bottom{
 width: 100%;
-background-color: blue;
-height: 250px;
+
+
 }
 
 article div.box-bottom div.box-space-one{
-    background-color: black;
+    
     width: 100%;
     height: calc(100% / 3);
 }
+
+
+
+
 
 
 
@@ -132,7 +166,7 @@ article div.box-bottom div.box-space-one{
 section.second-section{
       height: 600px;
       background-color: coral;
-      margin: 1rem 0;
+      margin: 5rem 0;
 }
 
 section.second-section div.box-left{

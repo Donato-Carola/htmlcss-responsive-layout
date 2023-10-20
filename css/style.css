@@ -164,20 +164,46 @@ article div.box-bottom div.box-space-one{
 /*seconda sezione - strategic planning*/
 
 section.second-section{
-      height: 600px;
-      background-color: coral;
+     background-color: rgb(149, 147, 230);
+     
       margin: 5rem 0;
 }
 
-section.second-section div.box-left{
-    height: 300px;
-    background-color: aqua;
+
+
+
+
+
+section.second-section img
+{
+    width: 100%;
+    object-fit: 100%;
+    
+   
 }
 
-section.second-section div.box-right{
-    height: 300px;
-    background-color: rgb(18, 51, 51);
-}
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

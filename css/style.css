@@ -152,7 +152,7 @@ section.second-section div.box-left{
 
 section.second-section img {
   width: 100%;
-  object-fit: 100%;
+  object-fit: cover;
 }
 
 section.second-section h1{
@@ -171,7 +171,7 @@ section.second-section p{
 section.second-section div.box-right{
     text-align: center;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 section.second-section div.box-right>p{
@@ -211,24 +211,48 @@ section.second-section div.box-right>i{
 
 /*css terza sezione dove ci sono i Testimonials*/
 
-section.third-section > article {
-  background-color: rgb(255, 251, 3);
-  height: 800px;
+
+
+section.third-section div.title-section{
+  text-align: center;
+  padding-bottom: 3rem;
 }
 
-section.third-section > article > div.title-section,
-section.third-section > article > div.testimonial {
-  height: calc(100% / 4);
+section.third-section div.title-section>h2{
+  padding: 2rem 0;
+  font-size: xx-large;
+
 }
 
-section.third-section > article > div.testimonial {
-  background-color: blueviolet;
+
+
+
+
+
+section.third-section div.testimonial img{
+ width: 200px;
+ height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  
 }
 
-section.third-section > article > div.title-section {
-  background-color: rgb(13, 221, 221);
+
+
+section.third-section div.testimonial{
+  background-color:  rgb(149, 147, 230);
+  border-radius: 20px;
+  text-align: center;
+  padding: 2rem ;
+  color: white;
+  line-height: 1.5rem;
+  margin: 1rem 0;
+ 
 }
 
+section.third-section div.testimonial>p{
+  padding: 1rem 0;
+}
 
 
 

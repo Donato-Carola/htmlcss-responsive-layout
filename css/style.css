@@ -92,15 +92,170 @@ article div.box-bottom div.box-space-one{
 section.second-section{
       height: 600px;
       background-color: coral;
+      margin: 1rem 0;
 }
 
 section.second-section div.box-left{
-    height: calc(100% / 2);
+    height: 300px;
     background-color: aqua;
 }
 
 section.second-section div.box-right{
-    height: calc(100% / 2);
+    height: 300px;
     background-color: rgb(18, 51, 51);
 }
 
+
+
+/*css terza sezione dove ci sono i Testimonials*/
+
+
+section.third-section>article{
+    background-color:rgb(255, 251, 3) ;
+    height: 800px;
+    
+}
+
+
+section.third-section>article>div.title-section,
+section.third-section>article>div.testimonial{
+   height: calc(100% / 4);
+    
+}
+
+section.third-section>article>div.testimonial{
+    background-color: blueviolet;
+}
+
+section.third-section>article>div.title-section{
+    background-color: rgb(13, 221, 221);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS quarta sezione dove ci sono i benefici se lavori con noi*/
+
+section.fourth-section{
+    height: 1000px;
+    background-color: chartreuse;
+    margin: 1rem 0;
+}
+
+
+section.fourth-section>article.row h1
+{
+    height: 100px;
+    background-color: black;
+}
+
+
+section.fourth-section>article.row>div.box-top-benefit{
+    background-color: aqua;
+
+}
+
+section.fourth-section>article.row>div.box-bottom-benefit{
+    background-color: blueviolet;
+}
+
+section.fourth-section>article.row>div.box-top-benefit,
+section.fourth-section>article.row>div.box-bottom-benefit{
+height: 450px;
+}
+
+
+div.box-benefits{
+    height: calc(100% / 3);
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS quinta sezione dove ci sono ABOUT*/
+
+
+section.fifth-section{
+    height: 800px;
+    background-color: rgb(201, 94, 94);
+}
+
+section.fifth-section>article.row{
+    height: 100%;
+}
+
+div.box-left-about,
+div.box-right-about{
+    height: calc(100% / 2);
+
+}
+
+div.box-left-about{
+    background-color: rgb(179, 179, 59);
+}
+
+div.box-right-about{
+    background-color: rgb(0, 60, 255);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS sesta sezione dove GET strted*/
+
+section.sixth-section{
+    height: 1000px;
+    background-color: aqua;
+}
+
+div.pre-footer{
+    height: 100%;
+}
+
+
+
+
+/*CSS FOOTER*/
+
+footer{
+    height: 600px;
+    background-color: black;
+}

@@ -174,7 +174,7 @@ padding: 3rem 0;
 section.second-section {
   background-color: rgb(149, 147, 230);
 
-  margin: 5rem 0;
+ 
 }
 
 section.second-section div.box-left{
@@ -183,7 +183,7 @@ section.second-section div.box-left{
 
 section.second-section img {
   width: 100%;
-  object-fit: cover;
+ 
 }
 
 section.second-section h1{
@@ -246,7 +246,9 @@ section.second-section div.box-right>h2{
 
 /*css terza sezione dove ci sono i Testimonials*/
 
-
+section.third-section{
+  padding: 3rem 0;
+}
 
 section.third-section div.title-section{
   text-align: center;
@@ -509,4 +511,9 @@ footer>section>p:first-child{
 
 footer>section>p:last-child>a{
   color: rgb(131, 127, 193);
+}
+
+
+@media all and (min-width: 480px){
+  
 }

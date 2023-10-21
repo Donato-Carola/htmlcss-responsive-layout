@@ -19,6 +19,10 @@ body {
   margin: 0 auto;
 }
 
+.padding-interno-box{
+  padding:2rem;
+}
+
 /*css Header, menu di navigazione*/
 
 header {
@@ -91,14 +95,14 @@ div.box-space-two > img {
 
 article div.box-space-one {
   width: 100%;
-  padding: 2rem;
+ 
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 article div.box-space-one > i,
-h2 {
+article div.box-space-one > h2 {
   color: rgb(0, 132, 253);
 }
 
@@ -171,7 +175,7 @@ section.second-section p{
 section.second-section div.box-right{
     text-align: center;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 section.second-section div.box-right>p{
@@ -187,6 +191,10 @@ section.second-section div.box-right>i{
     
     
 
+}
+
+section.second-section div.box-right>h2{
+  color: black;
 }
 
 
@@ -241,9 +249,9 @@ section.third-section div.testimonial img{
 
 section.third-section div.testimonial{
   background-color:  rgb(149, 147, 230);
-  border-radius: 20px;
+  border-radius: 30px;
   text-align: center;
-  padding: 2rem ;
+  
   color: white;
   line-height: 1.5rem;
   margin: 1rem 0;
@@ -275,33 +283,46 @@ section.third-section div.testimonial>p{
 
 /* CSS quarta sezione dove ci sono i benefici se lavori con noi*/
 
+
+
+
+
 section.fourth-section {
   height: 1000px;
-  background-color: chartreuse;
+  background-color:  rgb(149, 147, 230);
   margin: 1rem 0;
 }
 
-section.fourth-section > article.row h1 {
-  height: 100px;
-  background-color: black;
+section.fourth-section > article.row>h1 {
+ 
+ 
+  color: white;
+  text-align: center;
+  font-size: 40px;
 }
 
-section.fourth-section > article.row > div.box-top-benefit {
-  background-color: aqua;
+
+section.fourth-section > article.row  div.box-benefits {
+  background-color: white;
+
+  
 }
 
-section.fourth-section > article.row > div.box-bottom-benefit {
-  background-color: blueviolet;
+section.fourth-section > article.row  div.box-benefits>h1{
+  font-size: 50px;
 }
 
-section.fourth-section > article.row > div.box-top-benefit,
-section.fourth-section > article.row > div.box-bottom-benefit {
-  height: 450px;
+section.fourth-section div.box-benefits>h2{
+  color: rgb(149, 147, 230);
 }
+
 
 div.box-benefits {
   height: calc(100% / 3);
-  background-color: blue;
+  border-radius: 30px;
+  
+  
+
 }
 
 

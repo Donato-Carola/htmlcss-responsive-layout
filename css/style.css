@@ -16,6 +16,11 @@ body {
   display: flex;
 }
 
+.row{
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
@@ -28,14 +33,23 @@ body {
 .border-radius-button{
   border-radius: 25px;
   border: none;
+  color: white;
+}
+
+.padding-button-big{
+  padding: 0.5rem 5rem;
 }
 
 .font-size-subtitle{
-  font-size: xx-large;
+  font-size: 33px;
 }
 
 .color-background{
   background-color: rgb(149, 147, 230);
+}
+
+.color-title{
+  color:  rgb(149, 147, 230);
 }
 /*css Header, menu di navigazione*/
 
@@ -55,12 +69,11 @@ header > nav div.menu {
   color: white;
 }
 
+
+
 /*css prima sezione - Get a demo application*/
 
-article.row {
-  flex-direction: column;
-  flex-wrap: wrap;
-}
+
 
 article div.box-top {
   width: 100%;
@@ -93,7 +106,7 @@ article div.box-top div.box-space-two > p {
 article div.box-top div.box-space-two > button {
   background-color: rgb(0, 132, 253);
   color: white;
-  padding: 0.5rem 5rem;
+
  
   
   font-size: larger;
@@ -233,9 +246,7 @@ section.second-section div.box-right>h2{
 
 /*css terza sezione dove ci sono i Testimonials*/
 
-.color-title{
-  color:  rgb(149, 147, 230);
-}
+
 
 section.third-section div.title-section{
   text-align: center;
@@ -299,6 +310,8 @@ section.third-section div.testimonial>p{
 
 /* CSS quarta sezione dove ci sono i benefici se lavori con noi*/
 
+
+
 .back-color{
   background-color:rgb(149, 147, 230) ;
 }
@@ -311,16 +324,16 @@ section.fourth-section {
   margin: 1rem 0;
 }
 
-section.fourth-section > article.row>h1 {
+section.fourth-section > article>h1 {
  
  
   color: white;
   text-align: center;
-  font-size: 40px;
+  
 }
 
 
-section.fourth-section > article.row  div.box-benefits {
+section.fourth-section > article  div.box-benefits {
   background-color: white;
   margin-top: 2rem;
 
@@ -328,7 +341,7 @@ section.fourth-section > article.row  div.box-benefits {
   
 }
 
-section.fourth-section > article.row  div.box-benefits>h1{
+section.fourth-section > article  div.box-benefits>h1{
   font-size: 50px;
 }
 
@@ -442,15 +455,35 @@ section.fifth-section div.box-right-about>button>i{
 
 /* CSS sesta sezione dove GET strted*/
 
-section.sixth-section {
-  height: 1000px;
-  background-color: aqua;
+
+section.sixth-section{
+  padding: 3rem 0;
+  color: white;
 }
 
-div.pre-footer {
-  height: 100%;
+.padding-sixth-section{
+  padding: 1rem 0;
+  text-align: center;
 }
 
+section.sixth-section>article {
+ align-items: center;
+  
+}
+
+
+
+section.sixth-section>article>h2{
+  font-size: 60px;
+  color: rgb(253, 193, 95);
+}
+
+
+
+section.sixth-section>article>button{
+  margin-bottom:1rem;
+
+}
 
 
 
@@ -461,7 +494,19 @@ div.pre-footer {
 /*CSS FOOTER*/
 
 footer {
-  height: 600px;
-  background-color: black;
+ background-color: rgb(51, 51, 51);
+ padding: 5rem 0;
+ color: white;
 }
 
+footer>section{
+ text-align: center;
+}
+
+footer>section>p:first-child{
+  padding-bottom: 2rem;
+}
+
+footer>section>p:last-child>a{
+  color: rgb(131, 127, 193);
+}

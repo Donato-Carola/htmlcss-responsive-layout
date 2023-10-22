@@ -247,7 +247,7 @@ section.fourth-section {
   margin: 1rem 0;
 }
 
-section.fourth-section > article > h1 {
+section.fourth-section  > h1 {
   color: white;
   text-align: center;
 }
@@ -274,7 +274,7 @@ section.fourth-section div.box-benefits > button {
 }
 
 div.box-benefits {
-  height: calc(100% / 3);
+ /* height: calc(100% / 3);*/
   border-radius: 30px;
 }
 
@@ -286,6 +286,7 @@ section.fifth-section {
 
 section.fifth-section div.box-left-about > h1 {
   font-size: xxx-large;
+  
 }
 
 section.fifth-section div.box-left-about > p {
@@ -379,6 +380,7 @@ footer > section > p:last-child > a {
 @media all and (min-width: 480px) {
 
 
+
   /*prima sezione*/
 
 
@@ -420,23 +422,53 @@ footer > section > p:last-child > a {
 
   article div.box-bottom>div
   {
-    width: calc(100% / 3 );
-    
+    width: calc(100% / 3 - 1rem );
+    margin-right: 1rem;
 
   
   }
 
   /*seconda sezione*/
 
+
+
+
+
+
+
+
+/*quarta sezione*/
+
+
+
+section.fourth-section>article{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   
+}
 
+section.fourth-section  article div.box-benefits{
+ width: calc(100% / 2 - 1rem)   ;
+ margin-right: 1rem;
+ 
+}
 
+/*quinta sezione*/
 
+section.fifth-section>article{
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
+section.fifth-section>article>div.box-left-about{
+  width:65% ;
+  padding-right: 1rem;
+}
 
-
-
-
+section.fifth-section>article>div.box-right-about{
+width: 35%;
+}
 
 
 }

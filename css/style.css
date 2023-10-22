@@ -185,18 +185,23 @@ section.second-section div.box-right {
   border-radius: 30px;
 }
 
-section.second-section div.box-right > p {
+section.second-section div.box-right div> p {
   font-style: oblique;
 }
 
-section.second-section div.box-right > i {
+section.second-section div.box-right div> img{
+  width: 100%;
+  object-fit: cover;
+}
+
+section.second-section div.box-right div> i {
   padding: 1rem;
   background-color: rgb(149, 147, 230);
   border-radius: 100%;
   margin-bottom: 1rem;
 }
 
-section.second-section div.box-right > h2 {
+section.second-section div.box-right div> h2 {
   color: black;
 }
 

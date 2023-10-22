@@ -16,7 +16,7 @@ body {
   display: flex;
 }
 
-.row{
+.row {
   flex-direction: column;
   flex-wrap: wrap;
 }
@@ -26,30 +26,30 @@ body {
   margin: 0 auto;
 }
 
-.padding-interno-box{
-  padding:2rem;
+.padding-interno-box {
+  padding: 2rem;
 }
 
-.border-radius-button{
+.border-radius-button {
   border-radius: 25px;
   border: none;
   color: white;
 }
 
-.padding-button-big{
+.padding-button-big {
   padding: 0.5rem 5rem;
 }
 
-.font-size-subtitle{
+.font-size-subtitle {
   font-size: 33px;
 }
 
-.color-background{
+.color-background {
   background-color: rgb(149, 147, 230);
 }
 
-.color-title{
-  color:  rgb(149, 147, 230);
+.color-title {
+  color: rgb(149, 147, 230);
 }
 /*css Header, menu di navigazione*/
 
@@ -69,11 +69,7 @@ header > nav div.menu {
   color: white;
 }
 
-
-
 /*css prima sezione - Get a demo application*/
-
-
 
 article div.box-top {
   width: 100%;
@@ -81,7 +77,7 @@ article div.box-top {
 
 .color-box-first-section {
   background-color: rgb(181, 221, 255);
-  width: 100%;
+  
   border-radius: 25px;
 
   margin: 1rem 0;
@@ -107,8 +103,6 @@ article div.box-top div.box-space-two > button {
   background-color: rgb(0, 132, 253);
   color: white;
 
- 
-  
   font-size: larger;
   margin: 1rem 0;
 }
@@ -122,7 +116,7 @@ div.box-space-two > img {
 
 article div.box-space-one {
   width: 100%;
- 
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -150,370 +144,299 @@ article div.box-bottom {
   width: 100%;
 }
 
-article div.box-bottom div.box-space-one {
-  width: 100%;
+ /* article div.box-bottom div.box-space-one {
+width: 100%;
   height: calc(100% / 3);
-}
-
-
-
-
-
-
-
-
-
+}*/
 
 /*seconda sezione - strategic planning*/
 
-
-section.second-section article.article-second-sec{
-padding: 3rem 0;
+section.second-section article.article-second-sec {
+  padding: 3rem 0;
 }
 
 section.second-section {
   background-color: rgb(149, 147, 230);
-
- 
 }
 
-section.second-section div.box-left{
-    color: white;
+section.second-section div.box-left {
+  color: white;
 }
 
 section.second-section img {
   width: 100%;
- 
-}
-
-section.second-section h1{
-    padding: 3rem 0;
-    font-size: xx-large;
-}
-
-section.second-section p{
-    padding: 1.5rem 0;
 }
 
 
 
 
-
-section.second-section div.box-right{
-    text-align: center;
-    background-color: white;
-    border-radius: 30px;
+section.second-section h1 {
+  padding: 3rem 0;
+  font-size: xx-large;
 }
 
-section.second-section div.box-right>p{
-    
-    font-style: oblique;
+section.second-section p {
+  padding: 1.5rem 0;
 }
 
-section.second-section div.box-right>i{
-    padding: 1rem;
-    background-color: rgb(149, 147, 230);
-    border-radius:100%;
-    margin-bottom: 1rem;
-    
-    
-
+section.second-section div.box-right {
+  text-align: center;
+  background-color: white;
+  border-radius: 30px;
 }
 
-section.second-section div.box-right>h2{
+section.second-section div.box-right > p {
+  font-style: oblique;
+}
+
+section.second-section div.box-right > i {
+  padding: 1rem;
+  background-color: rgb(149, 147, 230);
+  border-radius: 100%;
+  margin-bottom: 1rem;
+}
+
+section.second-section div.box-right > h2 {
   color: black;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*css terza sezione dove ci sono i Testimonials*/
 
-section.third-section{
+section.third-section {
   padding: 3rem 0;
 }
 
-section.third-section div.title-section{
+section.third-section div.title-section {
   text-align: center;
   padding-bottom: 3rem;
 }
 
-section.third-section div.title-section>h2{
+section.third-section div.title-section > h2 {
   padding: 2rem 0;
- 
-
 }
 
-
-
-
-
-
-section.third-section div.testimonial img{
- width: 200px;
- height: 200px;
+section.third-section div.testimonial img {
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
-  
 }
 
-
-
-section.third-section div.testimonial{
-  background-color:  rgb(149, 147, 230);
+section.third-section div.testimonial {
+  background-color: rgb(149, 147, 230);
   border-radius: 30px;
   text-align: center;
-  
+
   color: white;
   line-height: 1.5rem;
   margin: 1rem 0;
- 
 }
 
-section.third-section div.testimonial>p{
+section.third-section div.testimonial > p {
   padding: 1rem 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* CSS quarta sezione dove ci sono i benefici se lavori con noi*/
 
-
-
-.back-color{
-  background-color:rgb(149, 147, 230) ;
+.back-color {
+  background-color: rgb(149, 147, 230);
 }
 
-
-
 section.fourth-section {
-  
   padding: 3rem 0 2rem 0;
   margin: 1rem 0;
 }
 
-section.fourth-section > article>h1 {
- 
- 
+section.fourth-section > article > h1 {
   color: white;
   text-align: center;
-  
 }
 
-
-section.fourth-section > article  div.box-benefits {
+section.fourth-section > article div.box-benefits {
   background-color: white;
   margin-top: 2rem;
-
-
-  
 }
 
-section.fourth-section > article  div.box-benefits>h1{
+section.fourth-section > article div.box-benefits > h1 {
   font-size: 50px;
 }
 
-section.fourth-section div.box-benefits>h2{
+section.fourth-section div.box-benefits > h2 {
   color: rgb(149, 147, 230);
 }
 
-section.fourth-section div.box-benefits>p{
+section.fourth-section div.box-benefits > p {
   padding: 1rem 0;
 }
 
-section.fourth-section div.box-benefits>button{
+section.fourth-section div.box-benefits > button {
   padding: 0.75rem 3rem;
 }
 
 div.box-benefits {
   height: calc(100% / 3);
   border-radius: 30px;
-  
-  
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* CSS quinta sezione dove ci sono ABOUT*/
 
-section.fifth-section{
+section.fifth-section {
   padding: 3rem 0 5rem 0;
 }
 
-section.fifth-section div.box-left-about>h1{
+section.fifth-section div.box-left-about > h1 {
   font-size: xxx-large;
- 
-
 }
 
-section.fifth-section div.box-left-about>p{
+section.fifth-section div.box-left-about > p {
   line-height: 2.5rem;
 }
 
-section.fifth-section div.box-left-about>p:last-child{
+section.fifth-section div.box-left-about > p:last-child {
   padding: 2rem 0 1rem 0;
 }
 
-section.fifth-section div.box-right-about section>img{
+section.fifth-section div.box-right-about section > img {
   width: 100%;
-  
-  border-radius: 50%;
-  
 
+  border-radius: 50%;
 }
 
-section.fifth-section div.box-right-about section>i{
+section.fifth-section div.box-right-about section > i {
   position: absolute;
   right: 0;
   font-size: xxx-large;
   color: rgb(149, 147, 230);
-  
 }
 
-
-section.fifth-section div.box-right-about>section{
- position: relative;
- width: 50%;
-
- 
+section.fifth-section div.box-right-about > section {
+  position: relative;
+  width: 50%;
 }
 
-section.fifth-section div.box-right-about>p{
+section.fifth-section div.box-right-about > p {
   font-size: 25px;
   padding: 1rem 0;
-
 }
 
-section.fifth-section div.box-right-about>button
-{
-  padding:0.5rem 1rem;
-  
+section.fifth-section div.box-right-about > button {
+  padding: 0.5rem 1rem;
 }
 
-section.fifth-section div.box-right-about>button>i{
-  padding:0 0.5rem ;
+section.fifth-section div.box-right-about > button > i {
+  padding: 0 0.5rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* CSS sesta sezione dove GET strted*/
 
-
-section.sixth-section{
+section.sixth-section {
   padding: 3rem 0;
   color: white;
 }
 
-.padding-sixth-section{
+.padding-sixth-section {
   padding: 1rem 0;
   text-align: center;
 }
 
-section.sixth-section>article {
- align-items: center;
-  
+section.sixth-section > article {
+  align-items: center;
 }
 
-
-
-section.sixth-section>article>h2{
+section.sixth-section > article > h2 {
   font-size: 60px;
   color: rgb(253, 193, 95);
 }
 
-
-
-section.sixth-section>article>button{
-  margin-bottom:1rem;
-
+section.sixth-section > article > button {
+  margin-bottom: 1rem;
 }
-
-
-
-
-
-
 
 /*CSS FOOTER*/
 
 footer {
- background-color: rgb(51, 51, 51);
- padding: 5rem 0;
- color: white;
+  background-color: rgb(51, 51, 51);
+  padding: 5rem 0;
+  color: white;
 }
 
-footer>section{
- text-align: center;
+footer > section {
+  text-align: center;
 }
 
-footer>section>p:first-child{
+footer > section > p:first-child {
   padding-bottom: 2rem;
 }
 
-footer>section>p:last-child>a{
+footer > section > p:last-child > a {
   color: rgb(131, 127, 193);
 }
 
 
-@media all and (min-width: 480px){
+/*CSS PER TABLET*/
+
+
+@media all and (min-width: 480px) {
+
+
+  /*prima sezione*/
+
+
+  /*box top prima sezione*/
+
+
+  section.first-section>article{
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+
+  article div.box-top{
+    width: 100% ;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  article div.box-top>div:last-child{
+    width: 30%;
+    margin-left: 1rem;
+    
+  }
+  article div.box-top>div:first-child{
+    width: 70%;
+  }
+ 
+  /*box-bottom prima sezione*/
+
+  article div.box-bottom {
+    display: flex;
+    flex-direction: row;
+   
+
+   
+  }
+
+  article div.box-bottom>div
+  {
+    width: calc(100% / 3 );
+    
+
   
+  }
+
+  /*seconda sezione*/
+
+  
+
+
+
+
+
+
+
+
+
+
 }

@@ -165,7 +165,7 @@ width: 100%;
 /*seconda sezione - strategic planning*/
 
 section.second-section article.article-second-sec {
-  padding: 3rem 0;
+  padding: 1.5rem 0;
 }
 
 section.second-section {
@@ -179,6 +179,7 @@ section.second-section div.box-left {
 
 section.second-section img {
   width: 100%;
+  object-fit: cover;
 }
 
 
@@ -190,7 +191,7 @@ section.second-section h1 {
 }
 
 section.second-section p {
-  padding: 1.5rem 0;
+  padding: 1.5rem 0 0 0;
 }
 
 section.second-section div.box-right {
@@ -212,8 +213,9 @@ section.second-section div.box-right div> img{
 section.second-section div.box-right div> i {
   padding: 1rem;
   background-color: rgb(149, 147, 230);
-  border-radius: 100%;
-  margin-bottom: 1rem;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px; 
 }
 
 section.second-section div.box-right div> h2 {
@@ -481,6 +483,7 @@ footer > section > p:last-child > a {
 
 
 
+
 /*quarta sezione*/
 
 
@@ -555,19 +558,42 @@ article div.box-top>div:first-child>div:last-child{
 
 /*CSS DESKTOP SECONDA SEZIONE*/
 section.second-section article.article-second-sec{
-  
+  flex-wrap: nowrap;
   flex-direction: row;
-  flex-wrap: wrap;
+  
+}
+
+section.second-section article.article-second-sec>div.box-left{
+  padding-right: 2rem;
 }
 
 section.second-section article.article-second-sec>div.box-left,
 section.second-section article.article-second-sec>div.box-right{
-  width: calc(100% / 2);
+  width: calc(100% / 2 );
+  margin: 2rem;
+  
+
+ 
+}
+
+section.second-section article.article-second-sec>div.box-right{
+align-self: flex-end;
+
+
 }
 
 
+section.second-section article.article-second-sec>div.box-right>div img{
+  width: 65%;
+}
 
 
+/*quarta sezione*/
+section.fourth-section  article div.box-benefits{
+  width: calc(100% / 3 - 1rem)   ;
+  margin-right: 1rem;
+  
+ }
 
 
 }

@@ -72,8 +72,22 @@ header > nav div.menu-toggle {
 /*CSS menu desktop*/
 
 header > nav > div.menu{
- 
   display: none;
+}
+
+header > nav > div.menu>ul{
+  list-style: none;
+  color: white;
+}
+
+header > nav > div.menu> ul>li{
+  padding: 0 0 0 1rem;
+ 
+}
+
+header > nav > div.menu> ul>li>button{
+  color: black;
+  padding: 0.25rem 0.5rem;
 
 }
 
@@ -539,8 +553,19 @@ footer>section{
 /*MEDIA QUERY PER DESKTOP*/
 
 @media all and (min-width: 868px){
+
+
 .container{
   width: 65%;
+}
+
+/*NAV*/
+header > nav div.menu-toggle {
+  display: none;
+}
+
+header > nav > div.menu{
+  display: block;
 }
 
    /*CSS DESkTOP PRIMA SEZIONE*/

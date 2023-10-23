@@ -433,11 +433,15 @@ footer > section > p:last-child > a {
   section.first-section>article.row div:nth-child(4),
   section.first-section>article.row div:nth-child(5)
   {
-    width: calc(100% / 3 - 1rem);
-    margin-right:1rem ;
+    width: calc(100% / 3 );
+   
   }
    
-  
+  section.first-section>article.row div:nth-child(3),
+  section.first-section>article.row div:nth-child(4){
+    width: calc(100% / 3 - 1rem);
+     margin-right:1rem ;
+  }
   
 
 

@@ -539,16 +539,15 @@ width: 35%;
 
 
 /*sesta sezione*/
-section.sixth-section>article
+section.sixth-section>article,
+footer>section.container
 {
   width: 60%;
   
 }
 
 /*footer*/
-footer>section{
-  width: 60%;
-}
+
 
 }
 
@@ -626,5 +625,15 @@ section.fourth-section  article div.box-benefits{
   
  }
 
+
+/*sesta sezione*/ /*footer*/
+
+
+
+
+section.sixth-section>article,
+footer>section.container{
+    width: 50%;
+}
 
 }

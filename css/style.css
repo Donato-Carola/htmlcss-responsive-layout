@@ -423,6 +423,10 @@ footer > section > p:last-child > a {
     
   }
 
+
+  
+
+
   section.first-section>article.row div.box-space-two{
     width:calc((100% / 3) * 2 - 1rem );
     margin-right: 1rem;
@@ -443,7 +447,12 @@ footer > section > p:last-child > a {
      margin-right:1rem ;
   }
   
+  section.first-section>article.row div.box-space-two>div:last-child{
+    width: 100%;
+  }
 
+
+ 
 
 
 
@@ -546,7 +555,20 @@ header > nav > div.menu{
 
    
 
+/*CSS DESKTOP PRIMA SEZIONE*/
+section.first-section>article.row div.box-space-two{
+  display: flex;
+  flex-direction: row;
+}
 
+section.first-section>article.row div.box-space-two>div{
+  width: 50%;
+}
+
+section.first-section>article.row div.box-space-two>div:last-child{
+  align-self: flex-end;
+  padding-left: 2rem;
+}
 
 
 /*CSS DESKTOP SECONDA SEZIONE*/

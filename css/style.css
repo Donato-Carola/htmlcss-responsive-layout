@@ -167,9 +167,9 @@ article div.box-space-one > p {
   color: rgb(91, 111, 128);
 }
 
-article div.box-bottom {
+/*article div.box-bottom {
   width: 100%;
-}
+}*/
 
  /* article div.box-bottom div.box-space-one {
 width: 100%;
@@ -447,8 +447,8 @@ footer > section > p:last-child > a {
   
 
   article div.box-top>div:last-child{
-    width: 45%;
-
+    width: calc(100% / 2 );
+   
     
     
   }
@@ -463,7 +463,13 @@ footer > section > p:last-child > a {
   article div.box-bottom {
     display: flex;
     flex-direction: row;
+    width: 100%;
   
+  }
+
+
+  article div.box-bottom>div{
+    width: calc(100% / 3 );
   }
 
   article div.box-bottom>div:nth-child(3),

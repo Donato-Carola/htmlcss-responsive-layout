@@ -568,6 +568,7 @@ section.first-section>article.row div.box-space-two>div{
 section.first-section>article.row div.box-space-two>div:last-child{
   align-self: flex-end;
   padding-left: 2rem;
+  width: 100%;
 }
 
 

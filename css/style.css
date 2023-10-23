@@ -95,8 +95,8 @@ header > nav > div.menu> ul>li>button{
 
 /*css prima sezione - Get a demo application*/
 
-article div.box-top {
-  width: 100%;
+section.first-section{
+  padding: 2rem 0 3rem 0;
 }
 
 .color-box-first-section {
@@ -107,25 +107,25 @@ article div.box-top {
   margin: 1rem 0;
 }
 
-/*primo box*/
 
 
 
-article div.box-top div.box-space-two {
+
+article div.box-space-two {
   padding: 2rem 2rem 0 2rem;
 }
 
-article div.box-top div.box-space-two >div> h3 {
+article  div.box-space-two >div> h3 {
   color: rgb(0, 129, 253);
   font-size: xx-large;
 }
 
-article div.box-top div.box-space-two > div > p {
+article  div.box-space-two > div > p {
   color: rgb(91, 111, 128);
   padding: 1rem 0;
 }
 
-article div.box-top div.box-space-two >div> button {
+article div.box-space-two >div> button {
   background-color: rgb(0, 132, 253);
   color: white;
 
@@ -138,7 +138,7 @@ div.box-space-two > div >img {
   width: 100%;
 }
 
-/*secondo box*/
+
 
 article div.box-space-one {
   width: 100%;
@@ -167,14 +167,7 @@ article div.box-space-one > p {
   color: rgb(91, 111, 128);
 }
 
-/*article div.box-bottom {
-  width: 100%;
-}*/
 
- /* article div.box-bottom div.box-space-one {
-width: 100%;
-  height: calc(100% / 3);
-}*/
 
 /*seconda sezione - strategic planning*/
 
@@ -200,12 +193,12 @@ section.second-section img {
 
 
 section.second-section h1 {
-  padding: 3rem 0;
+  padding: 1.5rem 0;
   font-size: xx-large;
 }
 
 section.second-section p {
-  padding: 1.5rem 0 0 0;
+  padding: 1.5rem 0 ;
 }
 
 section.second-section div.box-right {
@@ -295,6 +288,7 @@ section.fourth-section > article div.box-benefits {
 
 section.fourth-section > article div.box-benefits > h1 {
   font-size: 50px;
+  color:rgb(149, 147, 230)
 }
 
 section.fourth-section div.box-benefits > h2 {
@@ -422,61 +416,34 @@ footer > section > p:last-child > a {
 
   /*prima sezione*/
 
-
-  /*box top prima sezione*/
-
-
-  section.first-section>article{
-    display: flex;
+  section.first-section>article.row{
+    
     flex-direction: row;
     
-   
-    
-
-    
     
   }
 
-
-  article div.box-top{
+  section.first-section>article.row div.box-space-two{
+    width:calc((100% / 3) * 2 - 1rem );
+    margin-right: 1rem;
+  }
   
-    display: flex;
-    flex-direction: row;
-  }
-
-  
-
-  article div.box-top>div:last-child{
-    width: calc(100% / 2 );
-   
-    
-    
-  }
-  article div.box-top>div:first-child{
-    width: calc(100% / 2 * 2 );
+  section.first-section>article.row div:nth-child(2),
+  section.first-section>article.row div:nth-child(3),
+  section.first-section>article.row div:nth-child(4),
+  section.first-section>article.row div:nth-child(5)
+  {
+    width: calc(100% / 3 - 1rem);
     margin-right:1rem ;
-    
   }
- 
-  /*box-bottom prima sezione*/
-
-  article div.box-bottom {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  
-  }
-
-
-  article div.box-bottom>div{
-    width: calc(100% / 3 );
-  }
-
-  article div.box-bottom>div:nth-child(3),
-  article div.box-bottom>div:nth-child(2) {
-   margin-left: 1rem;
    
-  }
+  
+  
+
+
+
+
+  
 
   /*seconda sezione*/
 
@@ -573,16 +540,8 @@ header > nav > div.menu{
   display: block;
 }
 
-   /*CSS DESkTOP PRIMA SEZIONE*/
+   
 
-article div.box-top>div:first-child{
-      display: flex;
-      flex-direction: row;
-}
-
-article div.box-top>div:first-child>div:last-child{
-  align-self: flex-end;
-}
 
 
 

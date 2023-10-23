@@ -409,7 +409,7 @@ footer > section > p:last-child > a {
   section.first-section>article{
     display: flex;
     flex-direction: row;
-    margin: 2rem;
+    
 
     
     
@@ -456,6 +456,13 @@ footer > section > p:last-child > a {
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-align: left;
+  
+
+ }
+
+ section.third-section>article>div.testimonial>div:last-child{
+  padding-left: 2rem;
 
  }
 
@@ -501,11 +508,31 @@ width: 35%;
 
 
 /*sesta sezione*/
-section.sixth-section>article.container,
-footer>section.container{
+section.sixth-section>article
+{
   width: 60%;
   
 }
+
+/*footer*/
+footer>section{
+  width: 60%;
+}
+
+}
+
+
+
+
+
+/*MEDIA QUERY PER DESKTOP*/
+
+@media all and (min-width: 768px){
+.container{
+  width: 65%;
+}
+   
+
 
 
 }
